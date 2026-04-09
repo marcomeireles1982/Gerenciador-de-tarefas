@@ -42,15 +42,3 @@ class Gerenciar(Task):
                 i+=1
         self.listg.clear()
         self.listg = nlist
-                
-ta = Gerenciar('06:00',1,'Acordar e tomar café')
-ta.add_Task('10:30',2,'Tomar remedio')
-ta.add_Task('11:00',3,'Almoçar')
-ta.add_Task('17:40',4,'Me preparar para o final')
-
-ta.show_List()
-ta.remove_Task(3)
-ta.show_List()
-
-ta.remove_Task(2)
-ta.show_List()
